@@ -18,6 +18,7 @@ jobs:
       #     python-version: ${{ matrix.py-ver }}
       - name: install python
         run: |
+          sudo apt-get update
           sudo apt-get install python
           python --version
 
