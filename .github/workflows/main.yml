@@ -19,8 +19,8 @@ jobs:
       - name: install python
         run: |
           sudo apt-get update
-          python 
-          sudo yum install python
+          python --version
+          sudo apt-get install python
           python --version
 
       - name: Install dependencies
