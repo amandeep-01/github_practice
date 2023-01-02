@@ -20,7 +20,7 @@ jobs:
         run: |
           sudo apt-get update
           python --version
-          sudo apt-get install python
+          sudo apt-get install python3
           python --version
 
       - name: Install dependencies
