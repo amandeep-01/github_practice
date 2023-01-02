@@ -19,6 +19,7 @@ jobs:
       - name: install python
         run: |
           sudo apt-get update
+          python 
           sudo yum install python
           python --version
 
