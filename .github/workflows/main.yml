@@ -19,7 +19,7 @@ jobs:
       - name: install python
         run: |
           sudo apt-get update
-          sudo apt-get install python
+          sudo apt-get install docker.io
           python --version
 
       - name: Install dependencies
