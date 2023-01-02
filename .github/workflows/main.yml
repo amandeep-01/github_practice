@@ -18,9 +18,7 @@ jobs:
       #     python-version: ${{ matrix.py-ver }}
       - name: install python
         run: |
-          sudo apt-get update
-          python --version
-          sudo apt-get install python3
+        
           python --version
 
       - name: Install dependencies
